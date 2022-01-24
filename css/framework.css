@@ -43,7 +43,7 @@
 }
 
 .col-6{
-    flex-basis: calc((100% / 12) * 5);
+    flex-basis: calc((100% / 12) * 6);
 }
 
 .col-7{
