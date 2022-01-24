@@ -1,5 +1,5 @@
 .container{
-    border: 4px solid red;
+    /* border: 4px solid red; */
 }
 
 [class*="col"]{
@@ -23,12 +23,12 @@
 
 .container .row:nth-child(7) .col-6 .row [class*="col"]{
     background-color: limegreen;
-    border: 2px dotted blue;
+    border: 2px solid lightblue;
 }
 
 section .container{
-    margin-top: 20px;
-    border: 2px solid green;
+    margin-top: 28px;
+    /* border: 2px solid green; */
 }
 
 section .container .row [class*="col"]{
