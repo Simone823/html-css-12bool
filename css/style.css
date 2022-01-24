@@ -16,3 +16,12 @@
 .row{
     margin-bottom: 10px;
 }
+
+.container .row:nth-child(7) .col-6 .row{
+    margin-bottom: 0;
+}
+
+.container .row:nth-child(7) .col-6 .row [class*="col"]{
+    background-color: limegreen;
+    border: 2px dotted blue;
+}
