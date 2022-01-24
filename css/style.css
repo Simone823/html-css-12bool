@@ -3,6 +3,10 @@
     margin-bottom: 20px;
 }
 
+.row{
+    margin-bottom: 10px;
+}
+
 [class*="col"]{
     background-color: lightblue;
     border: 2px dashed magenta;
@@ -10,22 +14,28 @@
     text-align: center;
 }
 
-.container h1{
-    margin-bottom: 15px;
-}
-
-.row{
-    margin-bottom: 10px;
-}
-
-.container .row:nth-child(7) .col-6 .row{
-    margin-bottom: 0;
-}
-
-.container .row:nth-child(7) .col-6 .row [class*="col"]{
+.container-fluid .row:nth-child(7) .col-6 .row [class*="col"],
+.container-fluid:nth-child(3) .row .col-7 .row [class*="col"],
+.container-fluid:nth-child(3) .row .col-5 .row [class*="col"]
+{
     background-color: limegreen;
     border: 2px solid lightblue;
 }
+/* -------------------------------------------------------------------- */
+
+
+.container-fluid h1{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+
+.container-fluid .row:nth-child(7) .col-6 .row{
+    margin-bottom: 0;
+}
+
+
+
 
 section .container{
     margin-top: 28px;
@@ -45,3 +55,16 @@ section .container .row:nth-child(7){
 .container-fluid:nth-child(2) .row [class*="col"]{
     padding: 20px;
 }
+
+
+/* Esercizio 3 */
+.container-fluid:nth-child(3) .row .col-7 .row [class*="col"],
+.container-fluid:nth-child(3) .row .col-5 .row [class*="col"]{
+    padding: 20px;
+}
+
+.container-fluid:nth-child(3) .row .col-7 .row,
+.container-fluid:nth-child(3) .row .col-5 .row{
+    margin-bottom: 0;
+}
+
