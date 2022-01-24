@@ -25,3 +25,16 @@
     background-color: limegreen;
     border: 2px dotted blue;
 }
+
+section .container{
+    margin-top: 20px;
+    border: 2px solid green;
+}
+
+section .container .row [class*="col"]{
+    padding: 20px;
+}
+
+section .container .row:nth-child(7){
+    margin-bottom: 0;
+}
