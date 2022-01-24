@@ -133,6 +133,14 @@
     justify-content: flex-end;
 }
 
+.justify-c-spa{
+    justify-content: space-around;
+}
+
+.justify-c-spb{
+    justify-content: space-between;
+}
+
 
 /* Align-self */
 .align-s-c{
