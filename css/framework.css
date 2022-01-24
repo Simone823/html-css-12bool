@@ -119,3 +119,16 @@
 .offset-12{
     margin-left: calc((100% / 12) * 12);
 }
+
+/* Justify-content */
+.justify-c-fs{
+    justify-content: flex-start;
+}
+
+.justify-c-c{
+    justify-content: center;
+}
+
+.justify-c-fe{
+    justify-content: flex-end;
+}
