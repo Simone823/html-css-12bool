@@ -6,6 +6,21 @@
 }
 
 
+/* Contenitore larghezza 100% */
+.container{
+    max-width: 100%;
+}
+
+
+/* Riga larghezza 100% */
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
 /* Colonne */
 .col-1 {
     flex-basis: calc((100% / 12) * 1);
