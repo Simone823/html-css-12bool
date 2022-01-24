@@ -8,3 +8,11 @@
     padding: 10px;
     text-align: center;
 }
+
+.container h1{
+    margin-bottom: 15px;
+}
+
+.row{
+    margin-bottom: 10px;
+}
