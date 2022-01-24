@@ -7,7 +7,7 @@
 
 
 /* Contenitore larghezza 100% */
-.container{
+.container-fluid{
     max-width: 100%;
 }
 
