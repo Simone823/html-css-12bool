@@ -39,3 +39,9 @@ section .container .row [class*="col"]{
 section .container .row:nth-child(7){
     margin-bottom: 0;
 }
+
+
+/* Esercizio 2 */
+.container-fluid:nth-child(2) .row [class*="col"]{
+    padding: 20px;
+}
