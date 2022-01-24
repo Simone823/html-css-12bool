@@ -132,3 +132,13 @@
 .justify-c-fe{
     justify-content: flex-end;
 }
+
+
+/* Align-self */
+.align-s-c{
+    align-self: center;
+}
+
+.align-s-fe{
+    align-self: flex-end;
+}
